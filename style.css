@@ -165,16 +165,10 @@ img {
     overflow: hidden;
 }
 
-#slack-invitation-iframe {
+.form-container {
     width: 100%;
     margin-top: 50px;
     text-align: center;
-}
-
-iframe {
-    width: 500px;
-    border: 20px;
-    overflow: hidden;
 }
 
 .icon-slack {
@@ -234,4 +228,48 @@ h1 {
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
     color: #000000;
+}
+
+
+
+.field {
+    background: #404040;
+    opacity: 0.75;
+    width: 448px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: none;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.submit {
+    position: absolute;
+    right: 30px;
+    top: 13px;
+    padding: 3px 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: #ffffff;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000000;
+}
+
+.form {
+    position: relative;
+    width: 478px;
+    margin-top: 20px;
+    display: inline-block;
 }
