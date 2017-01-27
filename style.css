@@ -111,9 +111,9 @@ img {
 **/
 
 .step2 {
-    background: #29B4C9 url(./resources/bgRoom.png) no-repeat 8% 60px;
-    background-size: 50%;
-    background-position: -20% 60px;
+    background: #29B4C9 url(./resources/bgImage_Phone.png) no-repeat 8% 60px;
+    background-size: 25%;
+    background-position: 10% 60px;
     color: #FFFFFF;
     height: auto;
     min-height: 400px;
@@ -128,26 +128,26 @@ img {
 
 @media screen and (max-width: 998px) {
     .step2 {
-        background-position: -40% 60px;
-        background-size: 60%;
+        background-position: 10% 60px;
+        background-size: 30%;
     }
 }
 @media screen and (max-width: 767px) {
     .step2 {
-        background-position: -90% 60px;
-        background-size: 65%;
+        background-position: -10% 60px;
+        background-size: 35%;
     }
 }
 @media screen and (max-width: 550px) {
     .step2 {
-        background-position: -140px 60px;
+        background-position: -100px 60px;
         background-size: 250px;
     }
 }
 @media only screen and (max-width: 480px) {
     .step2 {
-        background-position: -270px center;
-        background-size: 100%;
+        background-position: -135px 30px;
+        background-size: 65%;
     }
 }
 
