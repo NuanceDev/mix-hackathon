@@ -111,7 +111,7 @@ img {
 **/
 
 .step2 {
-    background: #29B4C9 url(./resources/Raspi_Iso_Blue.png) no-repeat 8% 60px;
+    background: #29B4C9 url(./resources/bgRoom.png) no-repeat 8% 60px;
     background-size: 50%;
     background-position: -20% 60px;
     color: #FFFFFF;
