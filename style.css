@@ -111,9 +111,9 @@ img {
 **/
 
 .step2 {
-    background: #29B4C9 url(./resources/Raspi_Iso_Blue.png) no-repeat 8% 60px;
-    background-size: 50%;
-    background-position: -20% 60px;
+    background: #29B4C9 url(./resources/bgImage_Phone.png) no-repeat 8% 60px;
+    background-size: 25%;
+    background-position: 10% 60px;
     color: #FFFFFF;
     height: auto;
     min-height: 400px;
@@ -128,36 +128,83 @@ img {
 
 @media screen and (max-width: 998px) {
     .step2 {
-        background-position: -40% 60px;
-        background-size: 60%;
+        background-position: 10% 60px;
+        background-size: 30%;
     }
 }
 @media screen and (max-width: 767px) {
     .step2 {
-        background-position: -90% 60px;
-        background-size: 65%;
+        background-position: -10% 60px;
+        background-size: 35%;
     }
 }
 @media screen and (max-width: 550px) {
     .step2 {
-        background-position: -140px 60px;
+        background-position: -100px 60px;
         background-size: 250px;
     }
 }
 @media only screen and (max-width: 480px) {
     .step2 {
-        background-position: -270px center;
+        background-position: -135px 30px;
+        background-size: 65%;
+    }
+}
+
+
+/**
+ * Step 3
+**/
+
+.step3 {
+    background: #7cc11e url(./resources/Raspi_Iso_Blue.png) no-repeat 8% 60px;
+    background-size: 50%;
+    background-position: 95% 60px;
+    color: #FFFFFF;
+    height: auto;
+    min-height: 400px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.step3 p {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+@media screen and (max-width: 998px) {
+    .step3 {
+        background-position: 110% 80px;
+        background-size: 60%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .step3 {
+        background-position: 130% 180px;
+        background-size: 65%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .step3 {
+        background-position: 240px 140px;
+        background-size: 100%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .step3 {
+        background-position: 220px 200px;
         background-size: 100%;
     }
 }
 
 
 /**
- * Steps 3
+ * Steps 4
 **/
 
-.step3 {
-    background: #7cc11e url(resources/bgBanner_Web.png) no-repeat bottom center;
+.step4 {
+    background: #00a5e3 url(./resources/bgBanner_Web.png) no-repeat bottom center;
     padding-top: 80px;
     text-align: center;
     min-height: 400px;
@@ -179,7 +226,7 @@ iframe {
 
 .icon-slack {
     position: absolute;
-    right: -50px;
+    left: -50px;
     top: -50px;
     width: 300px;
     opacity: 0.8;
@@ -195,12 +242,40 @@ iframe {
 
 @media screen and (max-width: 550px) {
     iframe {width: 300px;}
-    .step3 {
+    .step4 {
         padding-top: 180px;
         padding-bottom: 100px;
     }
 }
 
+
+/**
+ * Steps 5
+**/
+
+.step5 {
+    text-align: center;
+    padding: 50px 20px;
+}
+.step5 img {
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+    width: 120px;
+    height: auto;
+}
+.step5 h3 {
+    color: #034d74;
+    font-size: 1.35em;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.step5 p {
+    color: #777;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding: 8px 0;
+}
 
 
 
